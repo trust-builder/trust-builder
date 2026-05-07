@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import { supabase } from '../supabase'';
+import { supabase } from '../supabase';
 
 export default function StarRating() {
     const [loading, setLoading] = useState(false);
