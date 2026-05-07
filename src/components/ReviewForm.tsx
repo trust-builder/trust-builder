@@ -1,6 +1,6 @@
 'use client'; // Necesario porque usamos hooks de React
 import { useState } from 'react';
-import { supabase } from '../lib/supabase'; // Asegúrate de que la ruta sea correcta
+import { supabase } from '../lib/supabase';
 import { useUser } from '@clerk/nextjs'; // Para capturar el ID del usuario actual
 
 export default function ReviewForm() {
