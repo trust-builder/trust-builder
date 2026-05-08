@@ -102,8 +102,8 @@ export default function ReviewForm({ projectId, projectName, artisanName }: Revi
                     type="submit"
                     disabled={isSubmitting || rating === 0}
                     className={`w-full py-5 rounded-xl font-black uppercase tracking-widest transition-all duration-300 ${isSubmitting || rating === 0
-                            ? 'bg-slate-800 text-slate-600 cursor-not-allowed'
-                            : 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-900/20'
+                        ? 'bg-slate-800 text-slate-600 cursor-not-allowed'
+                        : 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-900/20'
                         }`}
                 >
                     {isSubmitting ? 'Procesando...' : 'Confirmar y Validar Calidad'}
