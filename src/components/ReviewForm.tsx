@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { supabase } from '../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { Star, CheckCircle2, AlertTriangle, Send } from 'lucide-react';
 
 interface ReviewFormProps {
